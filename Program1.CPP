@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
+
 void main(){
 	float a,b,c,d,x1,x2;
 	printf("Введите коофиценты a,b,c");  scanf("%f %f %f",&a,&b,&c);
