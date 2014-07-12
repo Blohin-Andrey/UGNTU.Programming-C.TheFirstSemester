@@ -1,24 +1,21 @@
-Ôªø#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
-#include <stdlib.h>
-
 void main(){
 	float a,b,c,d,x1,x2;
-	printf("–í–≤–µ–¥–∏—Ç–µ –∫–æ–æ—Ñ–∏—Ü–µ–Ω—Ç—ã a,b,c");  scanf("%f %f %f",&a,&b,&c);
+	printf("Ç¢•§®‚• ™ÆÆ‰®Ê•≠‚Î a,b,c");  scanf("%f %f %f",&a,&b,&c);
 	d=b*b-4*a*c;
-	if (d<0) 		printf("–ù–µ—Ç —Ä–µ—à–µ–Ω–∏—è");
+	if (d<0) 		printf("ç•‚ ‡•Ë•≠®Ô");
 		else
 			if (d>0){
-				printf("2—Ä–µ—à–µ–Ω–∏—è");
+				printf("2‡•Ë•≠®Ô");
 				x1=(-b+sqrt(d))/2*a;
 				x2=(-b-sqrt(d))/2*a;
 				printf("x1= %f x2= %f",x1,x2);
 		 }
 		 else{
-			printf("1—Ä–µ—à–µ–Ω–∏–µ");
+			printf("1‡•Ë•≠®•");
 			x1=-b/2*a; printf("/n x= %f",x1);
 		}
 getchar();
 getchar();
-ghdbtn
 }
